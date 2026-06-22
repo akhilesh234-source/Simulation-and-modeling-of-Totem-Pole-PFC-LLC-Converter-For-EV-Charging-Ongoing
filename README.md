@@ -26,24 +26,7 @@ This repository presents a comprehensive investigation into the design, modeling
 - **Hardware Prototype**: 400 W validation with custom magnetic components
 
 ## 📊 System Architecture
-┌─────────────────────────────────────────────────────────────────────────────┐
-│ TWO-STAGE EV CHARGING SYSTEM │
-├─────────────────────────────────────────────────────────────────────────────┤
-│ │
-│ ┌──────────────┐ ┌──────────────┐ ┌──────────────┐ ┌───────────┐ │
-│ │ AC Grid │───▶│ Totem-Pole │───▶│ 400 V │───▶│ Full- │ │
-│ │ 230 V, 50Hz │ │ PFC │ │ DC-Link │ │ Bridge │ │
-│ └──────────────┘ └──────────────┘ └──────────────┘ │ LLC │ │
-│ │ │ │ │ Converter │ │
-│ │ │ │ └─────┬─────┘ │
-│ │ │ │ │ │
-│ ▼ ▼ ▼ ▼ │
-│ ┌──────────────┐ ┌──────────────┐ ┌──────────────┐ ┌───────────┐ │
-│ │ PF ≈ 1 │ │ Dual-Loop │ │ Regulated │ │ 400 V │ │
-│ │ THD < 5% │ │ Control │ │ DC Voltage │ │ Output │ │
-│ └──────────────┘ └──────────────┘ └──────────────┘ └───────────┘ │
-│ │
-└─────────────────────────────────────────────────────────────────────────────┘
+![Uploading image.png…]()
 
 
 ## 🎯 Research Contributions
