@@ -26,7 +26,8 @@ This repository presents a comprehensive investigation into the design, modeling
 - **Hardware Prototype**: 400 W validation with custom magnetic components
 
 ## 📊 System Architecture
-![Uploading image.png…]()
+<img width="968" height="206" alt="image" src="https://github.com/user-attachments/assets/d0c5b7f5-99c3-4cbc-ae57-9fb97e240742" />
+
 
 
 ## 🎯 Research Contributions
